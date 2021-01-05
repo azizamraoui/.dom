@@ -1,0 +1,189 @@
+*{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    background-color: #0a0909;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 10px;
+  }
+
+ 
+ul{
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
+    /* margin: 0px 0px 0px 1200px; */
+    
+}
+
+ul li{
+    margin-left: 8px;
+  }
+
+
+
+.navbar{
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+      align-items: center;
+  }
+
+a{
+    text-decoration: none;
+    color: burlywood;
+  }
+  
+  img {
+    border: 0;
+    vertical-align: middle;
+    width: 100px;
+    height: auto;
+}
+
+
+
+.bloc-title {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.bloc-title h3 {
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #3d3d3d;
+    line-height: 37px;
+    padding-bottom: 15px;
+    margin-top: 70px;
+}
+
+
+.pc-title {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.pc-title h3 {
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #3d3d3d;
+    line-height: 37px;
+    padding-bottom: 15px;
+    margin-top: 70px;
+}
+
+
+ .new-articles h4 a {
+    color: black;
+    font-weight: 400;
+    text-transform: none;
+    display: inline-block;
+    vertical-align: middle;
+   zoom: 1;
+    font-size: 14px;
+    
+}
+.occ-articles h4  a{
+    color: black;
+    font-weight: 400;
+    text-transform: none;
+    display: inline-block;
+    vertical-align: middle;
+   zoom: 1;
+    font-size: 14px;
+    
+}
+
+
+
+.product-price{
+    
+        color: #ff0002;
+        font-size: 13px;
+        font-weight: 700;
+    
+}
+
+
+.new-articles{
+    display: flex;
+    justify-content: space-between;
+} 
+
+
+.occ-articles{
+    display: flex;
+    justify-content: space-between;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+._blank {
+    color:black;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0 0 10px;
+}
+footer {
+
+    background-color:bisque;
+    bottom: 0;
+    /* left: 0;
+    right: 0; */
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+  }
